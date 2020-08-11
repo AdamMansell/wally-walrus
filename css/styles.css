@@ -7,7 +7,7 @@
   background-color: blue;
 }
 
-.hide {
+#hide {
   display: none;
 }
 
@@ -15,7 +15,12 @@
   display: none;
 }
 
-.clickable {
+.clickable-show {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-hide {
   cursor: pointer;
   color: #0088cc;
 }

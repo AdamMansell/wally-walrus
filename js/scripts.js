@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $(".show").toggle();
-    $(".hide").toggle();
+  $(".clickable-show").click(function() {
+    $("#show").slideToggle("slow");
+    $("#hide").slideToggle("slow");
+  });
+  $(".clickable-hide").click(function() {
+  $("#show").slideToggle("slow");
+  $("#hide").slideToggle("slow");
   });
 });
