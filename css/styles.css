@@ -28,3 +28,23 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+/*------------------------*/
+
+#hide-sit {
+  display: none;
+}
+
+/* .walrus-showing {
+  display: none;
+} */
+
+.clickable-showSit {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-hideSit {
+  cursor: pointer;
+  color: #0088cc;
+}
